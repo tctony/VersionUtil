@@ -42,6 +42,6 @@ private class UInt32VersionFormatterDefault: UInt32VersionFormatter {
 
 extension VersionUtil {
 
-    static var uint32Formatter: UInt32VersionFormatter = UInt32VersionFormatterDefault()
+    public static var uint32Formatter: UInt32VersionFormatter = UInt32VersionFormatterDefault()
 
 }
